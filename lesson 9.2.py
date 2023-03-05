@@ -1,0 +1,10 @@
+list = ['мороженое','конфеты','капибара']
+print(list)
+list.pop()
+list.pop()
+list.append('болгарка')
+print(list)
+name = input('что ты еще хочешь купить?  ')
+list.append(name)
+print(list)
+print("Вот твой список покупок")
