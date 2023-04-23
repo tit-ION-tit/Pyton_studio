@@ -5,8 +5,8 @@ win = pygame.display.set_mode((500,500))
 x = 250
 y = 250
 w = 2
-r = 255
-g = 255
+r = 250
+g = 150
 b = 0
 while True:
     for event in pygame.event.get():
@@ -49,11 +49,11 @@ while True:
             g = 0
             b = 0
         else:
-            r = 255
-            g = 255
+            r = 230
+            g = 100
             b = 0
 
-    win.fill((20, 10, 200))
+    win.fill((20, 10, 20))
 
     pygame.draw.circle(win, (0, 0, 85), (250, 250), 45)
     pygame.draw.circle(win, (0, 0, 70), (250, 250), 42)
