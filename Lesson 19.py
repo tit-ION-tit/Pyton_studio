@@ -21,7 +21,7 @@ class circle:
         elif keys[pygame.K_w]:
             self.y -= 1
         elif keys[pygame.K_s]:
-            self.y += 1
+            s.y += 1
             #if self.x > 250:
                #self.x -= 1
             #elif self.x < 250:
